@@ -55,6 +55,10 @@ public class Agenda {
     public static void main(String[] args) {
         Agenda agenda = new Agenda();
         agenda.listar();
-    }
-    
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("contador: " + i);
+            
+        }
+    }    
 }

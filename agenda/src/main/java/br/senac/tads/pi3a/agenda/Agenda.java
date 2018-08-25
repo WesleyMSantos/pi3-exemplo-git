@@ -58,8 +58,10 @@ public class Agenda {
         
         for (int i = 0; i < 10; i++) {
             System.out.println("contador: " + i);
-            System.out.println("Teste");
-            
+            System.out.println("Teste");            
         }
+        
+        int x = 10;
+        System.out.println("Valor x: " + x);
     }    
 }
